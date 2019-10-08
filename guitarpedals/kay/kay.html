@@ -1,6 +1,16 @@
 <!doctype html>
 <html>
+
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149580809-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149580809-1');
+  </script>
   <meta charset="utf-8">
   <title>Samuel Zeter</title>
   <link rel="stylesheet" href="../../style.css">
@@ -9,49 +19,62 @@
 
 <body>
 
-<h1>Kay Tremolo</h1>
-<div class="kay">
+  <h1>Kay Tremolo</h1>
+  <div class="kay">
 
-<h2 style="clear: both">Schematics</h2>
+    <h2 style="clear: both">Schematics</h2>
 
-The <strong><a href="kay_tremolo.asc">LT Spice simulation</a></strong> was useful for determining the signal path along with expected oscillations via the LFO.<br>
-<h2 style="clear: both">Altium files</h2>
+    The <strong><a href="kay_tremolo.asc">LT Spice simulation</a></strong> was useful for determining the signal path
+    along with expected oscillations via the LFO.<br>
+    <h2 style="clear: both">Altium files</h2>
 
-<strong><a href="Kay PCB.PcbDoc">Altium PCB doc</a></strong> <br>
-<strong><a href="Kay Tremolo.PrjPcb">Altium Project doc</a></strong> <br> 
-<strong><a href="Kay Tremolo.SchDoc">Altium Scehmatic doc</a></strong> <br><br>
+    <strong><a href="Kay PCB.PcbDoc">Altium PCB doc</a></strong> <br>
+    <strong><a href="Kay Tremolo.PrjPcb">Altium Project doc</a></strong> <br>
+    <strong><a href="Kay Tremolo.SchDoc">Altium Scehmatic doc</a></strong> <br><br>
 
-These will also require my own schematic and pcb parts libaries found <a href="https://github.com/samzeter/altium">here</a> on Github.<br>
+    These will also require my own schematic and pcb parts libaries found <a
+      href="https://github.com/samzeter/altium">here</a> on Github.<br>
 
-<h2 style="clear: both">OSHPARK</h2>
-A ready to manufacture board.<br>
-Not for commercial use.<br>
-<a href="https://oshpark.com/shared_projects/oZEiB13o"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a><br>
+    <h2 style="clear: both">OSHPARK</h2>
+    A ready to manufacture board.<br>
+    Not for commercial use.<br>
+    <a href="https://oshpark.com/shared_projects/oZEiB13o"><img
+        src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png"
+        alt="Order from OSH Park"></img></a><br>
 
-<h2 style="clear: both">Notes</h2>
-I am indebted to <a href="http://www.generalguitargadgets.com/effects-projects/tremolo/kay-tremolo/">General Guitar Gadgets for the schematic.</a><br><br>
-The circuit itself is simple, where a Twin-T oscillator circuit is fed into the output. Ideally, redesigning this circuit, I'd add input and output resistors to ground to prevent popping.<br><br>
+    <h2 style="clear: both">Notes</h2>
+    I am indebted to <a href="http://www.generalguitargadgets.com/effects-projects/tremolo/kay-tremolo/">General Guitar
+      Gadgets for the schematic.</a><br><br>
+    The circuit itself is simple, where a Twin-T oscillator circuit is fed into the output. Ideally, redesigning this
+    circuit, I'd add input and output resistors to ground to prevent popping.<br><br>
 
-Things to consider when building this circuit:
-<ul>
-    <li> The two 100K resistors influence the stompbox's output. Initially, I had issues with significant signal loss when the pedal was engaged. Lowering these values to allow more signal through fixed the problem. </li>
-    <li> Use transistor sockets to play around with suitable outputs. From readings online, the hfe levels of the original boxes were between 100-150. A common problem people had was using too higher gains and producing, basically, 
-      a distortion box. I used my transistor tester before soldering to ensure that this would not happen; however, it would have been interesting to try other transistors. (I used 2N2008s). </li>
-      <li> Likewise, you could add sockets for the two 100K resistors if you are not going to breadboard the circuit before soldering, as these will most likely have to be modified to taste.</li>
-</ul>
+    Things to consider when building this circuit:
+    <ul>
+      <li> The two 100K resistors influence the stompbox's output. Initially, I had issues with significant signal loss
+        when the pedal was engaged. Lowering these values to allow more signal through fixed the problem. </li>
+      <li> Use transistor sockets to play around with suitable outputs. From readings online, the hfe levels of the
+        original boxes were between 100-150. A common problem people had was using too higher gains and producing,
+        basically,
+        a distortion box. I used my transistor tester before soldering to ensure that this would not happen; however, it
+        would have been interesting to try other transistors. (I used 2N2008s). </li>
+      <li> Likewise, you could add sockets for the two 100K resistors if you are not going to breadboard the circuit
+        before soldering, as these will most likely have to be modified to taste.</li>
+    </ul>
 
-<h2 style="clear: both">Photos</h2>
-<img src="kay_inside.JPG" width="500" alt="Inside"></img>
-<img src="kay_outside.JPG" width="500" alt="Outside"></img>
+    <h2 style="clear: both">Photos</h2>
+    <img src="kay_inside.JPG" width="500" alt="Inside"></img>
+    <img src="kay_outside.JPG" width="500" alt="Outside"></img>
 
-<br><br><h2><a href="../../index.html">Home</a></h2>
+    <br><br>
+    <h2><a href="../../index.html">Home</a></h2>
 
-<footer>
-    <small>&copy; Copyright 2019, Samuel Zeter</small>
-</footer>
+    <footer>
+      <small>&copy; Copyright 2019, Samuel Zeter</small>
+    </footer>
 
 
-</div>
+  </div>
 
 </body>
+
 </html>
