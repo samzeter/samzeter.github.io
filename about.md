@@ -3,13 +3,19 @@ layout: page
 title: About
 permalink: /about/
 ---
+I live in Brisbane, Australia with my wife and family.
 
-Some information about you!
+Likes:
+- Linux
+- C
+- Programming
+- Electronics
 
-### More Information
+Dislikes:
+- Javascript
 
-A place to include any other types of information that you'd like to include about yourself.
+![]({{site.baseurl}}/assets/images/me.jpg){:height="200px" width="200px"}
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[samuelzeter@gmail.com](mailto:samuelzeter@gmail.com)

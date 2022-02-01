@@ -1,4 +1,4 @@
-# brutalist-blog
+# sam zeter 
 
 ## Introduction
 

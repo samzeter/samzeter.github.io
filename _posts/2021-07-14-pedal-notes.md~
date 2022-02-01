@@ -1,0 +1,21 @@
+---
+layout: post
+title: Pedal building notes
+---
+ 
+# Drilling
+
+Think about battery placement before drilling pots and stomp switches
+Don’t squish pots and LEDs in too tightly
+125b Are too small for starter builds (1590BB is best)
+
+# General
+
+Don’t bother with battery snaps or bezels
+Buy all components first before sending away for PCB fab
+Add diode protection to circuits
+Add Rb protection to circuits
+Put DC jacks at the top not on the sides (easier to work with)
+Use a throw switch on a box (instead of stomp (when making them for effects for synths))
+Use screwable LEDs if possible and if using superglue, only a dab — absolute pain in the ass if the LED needs replacing
+Label what pots are for what (Volume etc) on the PCB to avoid having to look back at designs
