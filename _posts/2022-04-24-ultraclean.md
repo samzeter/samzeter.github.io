@@ -63,3 +63,4 @@ https://www.instructables.com/Wire-Up-a-Fused-AC-Male-Power-Socket/)
 [This is the 230V wire I used](https://www.jaycar.com.au/mains-10a-twin-and-earth-power-cable-sold-per-metre/p/WB1565)
 
 # Photos
+![]({{site.baseurl}}/assets/images/powersupply.jpg){:height="500px" width="500px"}
