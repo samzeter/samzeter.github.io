@@ -4,6 +4,7 @@ title: Ultra Clean Power Supply
 ---
 
 # Files
+[Kicad files](https://github.com/samzeter/ultra-clean-power-supply)
 [Link to schematic](http://www.generalguitargadgets.com/wp-content/uploads/ultra_clean_ps_lo.gif)
 
 # Notes
